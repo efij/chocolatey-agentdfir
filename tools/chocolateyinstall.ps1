@@ -8,11 +8,11 @@ $toolsDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 $arch = $env:PROCESSOR_ARCHITEW6432
 if (-not $arch) { $arch = $env:PROCESSOR_ARCHITECTURE }
 if ($arch -eq 'ARM64') {
-  $url = 'https://github.com/efij/AgentDFIR/releases/download/v3.1.0/agentdfir-v3.1.0-windows-arm64.zip'
-  $sha = '3bfd719ac4932836bf0bf9213bb3fef1d7198c9df99b52d695cdaead311e9b16'
+  $url = 'https://github.com/efij/AgentDFIR/releases/download/v3.1.1/agentdfir-v3.1.1-windows-arm64.zip'
+  $sha = '3a3ee0dbd800aaa21b3dc17435adc8fee98976aa31c6f8583c2c806d5e1e2d64'
 } else {
-  $url = 'https://github.com/efij/AgentDFIR/releases/download/v3.1.0/agentdfir-v3.1.0-windows-amd64.zip'
-  $sha = '897a395f3d6b4789a82aa5673a9be39b92731656422009116e4ae5671c098c5d'
+  $url = 'https://github.com/efij/AgentDFIR/releases/download/v3.1.1/agentdfir-v3.1.1-windows-amd64.zip'
+  $sha = 'f733342b568aa156f30845db6b91b0168c94b381f9cbf25e4ed78139f8463b9e'
 }
 
 $packageArgs = @{
