@@ -4,7 +4,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>agentdfir</id>
-    <version>3.0.0</version>
+    <version>3.1.0</version>
     <packageSourceUrl>https://github.com/efij/chocolatey-agentdfir</packageSourceUrl>
     <owners>efij</owners>
     <title>AgentDFIR</title>
@@ -15,7 +15,7 @@
     <projectSourceUrl>https://github.com/efij/AgentDFIR</projectSourceUrl>
     <docsUrl>https://github.com/efij/AgentDFIR/blob/main/docs/install.md</docsUrl>
     <bugTrackerUrl>https://github.com/efij/AgentDFIR/issues</bugTrackerUrl>
-    <releaseNotes>https://github.com/efij/AgentDFIR/releases/tag/v3.0.0</releaseNotes>
+    <releaseNotes>https://github.com/efij/AgentDFIR/releases/tag/v3.1.0</releaseNotes>
     <tags>agentdfir dfir forensics incident-response ai-agents claude-code codex cursor copilot mcp security cli</tags>
     <summary>Digital forensics and incident response for AI coding agents</summary>
     <description><![CDATA[
